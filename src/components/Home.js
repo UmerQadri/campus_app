@@ -13,7 +13,7 @@ class Home extends Component {
 
        
           <div>
-        <div id="head"><Login/></div>
+        <div id="this"><p id="heading">Campus Recruitment System</p><Login/></div>
         <Signup/>
 
           </div>

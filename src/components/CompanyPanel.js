@@ -11,13 +11,13 @@ class CompanyPanel extends Component {
     return (
       <div>
         <Router>
-            <div>
-                <h1>Company Panel</h1>
-                <h2>Welcome, Muhammad Umer</h2>
-                <ul>
-                    <li><Link to="/postJob">Post Job</Link></li>
-                    <li><Link to="/postedJob">Posted Jobs</Link></li>
-                    <li><Link to="/viewStudents">View Students</Link></li>
+            <div >
+                <div className="panelHeader">
+                <h2>Welcome to CompanyPanel</h2></div>
+                <ul className="navContainer">
+                    <li className="navbar"><Link to="/postJob">Post Job</Link></li>
+                    <li className="navbar"><Link to="/postedJob">Posted Jobs</Link></li>
+                    <li className="navbar"><Link to="/viewStudents">View Students</Link></li>
                 </ul>
 
                 

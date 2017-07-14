@@ -15,12 +15,12 @@ class StudentPanel extends Component {
         <div>
         <Router>
             <div>
-                <h1>Student Panel</h1>
-                <h2>Welcome, Muhammad Umer</h2>
-                <ul>
-                    <li><Link to="/editInfo">Personal Details</Link></li>
-                    <li><Link to="/viewJob">Jobs</Link></li>
-                    <li><Link to="/company">Companies</Link></li>
+                <div className="panelHeader">
+                <h2>Welcome to Student Panel</h2></div>
+                <ul className="navContainer">
+                    <li className="navbar"><Link to="/editInfo">Personal Details</Link></li>
+                    <li className="navbar"><Link to="/viewJob">Jobs</Link></li>
+                    <li className="navbar"><Link to="/company">Companies</Link></li>
                 </ul>
 
                           
@@ -38,4 +38,4 @@ class StudentPanel extends Component {
   }
 }
 
-export default withRouter(StudentPanel);
+export default StudentPanel;
